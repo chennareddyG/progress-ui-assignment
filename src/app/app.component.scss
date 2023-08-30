@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    border: 1px solid grey;
+}
+
+.header,
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 8px;
+}
+
+.header {
+    height: 55px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.footer {
+    height: 40px;
+    border-top: 1px solid #e1e1e1;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    margin-inline-end: 10px;
+}
+ .header .logo {
+    margin-inline-start: 20px;
+ }
+ .footer .logo {
+    margin-inline-start: 10px;
+ }
+
+.logo img {
+    max-height: 94px;
+    object-fit: contain;
+    display: inline-block;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.menu {
+    display: flex;
+    margin: 0px 10px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.icon {
+    width: 28px;
+    height: 28px;
+    margin-inline-end: 10px;
+    background-color: #0091e5;
+    border-radius: 6px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    margin-inline-end: 10px;
+}
+
+.org-icon {
+    background: url("/assets/icons/person-check-fill.svg") no-repeat;
+    height: 18px !important;
+    cursor: pointer;
+    width: 18px !important;
+    line-height: 1em;
+    display: inline-block;
+    background-size: cover !important;
+    background-position: center !important;
+    object-fit: cover;
+}
+
+.config-icon {
+    background: url("/assets/icons/square.svg") no-repeat;
+    height: 18px !important;
+    width: 18px !important;
+    cursor: pointer;
+    line-height: 1em;
+    display: inline-block;
+    background-size: cover !important;
+    background-position: center !important;
+    object-fit: cover;
+}
+
+.report-icon {
+    background: url("/assets/icons/reports.svg") no-repeat;
+    height: 18px !important;
+    width: 18px !important;
+    line-height: 1em;
+    cursor: pointer;
+    display: inline-block;
+    background-size: cover !important;
+    background-position: center !important;
+    object-fit: cover;
+}
+
+.etl-icon {
+    background: url("/assets/icons/gear-fill.svg") no-repeat;
+    height: 18px !important;
+    width: 18px !important;
+    cursor: pointer;
+    line-height: 1em;
+    display: inline-block;
+    background-size: cover !important;
+    background-position: center !important;
+    object-fit: cover;
+}
+
+.arrow-icon {
+    background: url("/assets/icons/down-arrow.svg") no-repeat;
+    height: 18px !important;
+    width: 18px !important;
+    line-height: 1em;
+    display: inline-block;
+    cursor: pointer;
+    background-size: cover !important;
+    background-position: center !important;
+    object-fit: cover;
+}
+
+.region-icon {
+    background: url("/assets/images/america-flag.png") no-repeat;
+    height: 22px !important;
+    width: 22px !important;
+    line-height: 1em;
+    margin: 0px 8px;
+    display: inline-block;
+    background-size: cover !important;
+    background-position: center !important;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.notification-icon {
+    background: url("/assets/icons/notification.svg") no-repeat;
+    height: 22px !important;
+    width: 22px !important;
+    line-height: 1em;
+    margin: 0px 8px;
+    display: inline-block;
+    background-size: cover !important;
+    background-position: center !important;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.logged-icon {
+    background: url("/assets/icons/person-circle.svg") no-repeat;
+    height: 24px !important;
+    width: 24px !important;
+    line-height: 1em;
+    margin: 0px 5px;
+    display: inline-block;
+    cursor: pointer;
+    background-size: cover !important;
+    background-position: center !important;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.rocket-icon {
+    background: url("/assets/icons/rocket-fill.svg") no-repeat;
+    height: 40px !important;
+    width: 40px !important;
+    margin-inline-end: 10px;
+    line-height: 1em;
+    display: inline-block;
+    background-size: cover !important;
+    background-position: center !important;
+    object-fit: cover;
+}
+
+.toggle {
+    height: 20px;
+    width: 40px;
+    display: flex;
+    cursor: pointer;
+    margin-inline-start: auto;
+    margin-inline-end: 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: #0091e5;
+}
+.arrow-down-icon {
+    background: url("/assets/icons/caret-down-fill.svg") no-repeat;
+    height: 18px !important;
+    width: 18px !important;
+    margin: auto;
+    line-height: 1em;
+    display: inline-block;
+    background-size: cover !important;
+    background-position: center !important;
+    object-fit: cover;
+}
+.arrow-up-icon {
+    background: url("/assets/icons/caret-up-fill.svg") no-repeat;
+    height: 18px !important;
+    width: 18px !important;
+    margin: auto;
+    line-height: 1em;
+    display: inline-block;
+    background-size: cover !important;
+    background-position: center !important;
+    object-fit: cover;
+}
+
+.icons {
+    display: flex;
+    margin-inline-end: 10px;
+    cursor: pointer;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 97px);
+}
+
+.start-button {
+    cursor: pointer;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #0091e5;
+    border-radius: 6px;
+    border: none;
+    width: 100px;
+}
+
+.center-content {
+    flex: 1;
+    text-align: center;
+}
+
+.migrate-logo {
+    background-color: #0091e5;
+    height: 100%;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.migrate-container {
+    display: flex;
+    height: 70px;
+    border-top: 1px solid #e1e1e1;
+    background-color: #ffffff;
+}
+.progress-box {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0px;
+    z-index: 10;
+    width: calc(100% - 3px);
+}
+.right-indicator {
+    height: 0px;
+    width: 0px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #0091e5;
+    transform: translateY(80%);
+}
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 10px;
+    width: calc(100% - 90px);
+}
+.data {
+    display: flex;
+    width: 100%;
+    padding: 8px;
+}
+.dynamic-value {
+    margin-inline-end: 10px;
+    margin-inline-start: auto;
+}
+::ng-deep .success-message {
+    background-color: green;
+    color: #ffffff;
+    padding: 0px !important;
+    min-width: auto !important;
+
+    .mdc-snackbar__label {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .mdc-snackbar__surface {
+        padding-right: 0px;
+        min-width: 300px !important;
+    }
+}
